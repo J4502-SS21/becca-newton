@@ -1,3 +1,31 @@
+nav {
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  background: #7a991a;
+  text-align: center;
+  overflow: hidden;
+  overflow: hidden;
+  padding: 5px 0px;
+  padding-left: 10px;
+  padding-right: 0px;
+  border-bottom: 0px #7a991a;
+  width: 99%;
+  margin: 0;
+  border: 0;
+}
+
+nav a:hover {
+color: black;
+background: grey;
+text-decoration: none;
+}
+
+nav a:visited {
+  color: black;
+  text-decoration: none;
+}
+
 body {
   background: grey;
   text-align: center;
@@ -6,22 +34,22 @@ body {
   width: 100%;
   font-size: 10px;
   font-weight: bold;
-  padding-bottom: 10px;
   font-family: 'Roboto', sans-serif;
 }
 
-
-<a href="mailto:rlnfvm@umsystem.edu">
-  <img src="https://case.missouri.edu/wp-content/uploads/sites/4/2020/07/Becca-Newton-300x0-c-default.jpg" alt="photo of becca"> </a>
-nav {
-  background: grey;
-  border-bottom: 0px solid grey;
+.experience {
+  border: 2px solid black;
+  padding: 1rem;
+  margin: 1rem 0px;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
   width: 100%;
-  margin: 0;
-  font-family: 'Open Sans', sans-serif;
-  border: 0;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
-  ul {
+
+ul {
   list-style-type: none;
   text-decoration: none;
   font-size: 30px;
@@ -40,31 +68,47 @@ li {
   text-decoration: none;
 }
 
+p {
+background: grey;
+text-align: left;
+  font-size: 25px;
+  margin: 7px auto;
+  padding-left: 60px;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: left;
+  background: grey;
+  padding-top: 40px;
+  padding-left: 60px;
+  padding-right: 20px;
+}
+
 h2 {
   font-family: 'Roboto Slab', serif;
   font-size: 30px;
   background: #7a991a;
-  padding-left: 10px;
-  padding-right: 10px;
-  text-transform: uppercase;
-}
-h3 {
-  background: grey;
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-  font-size: 30px;
+  text-align: left;
+  padding-left: 60px;
+  padding-right: 20px;
   text-transform: uppercase;
 }
 
-h5 {
-font-size: 500px;
+h3 {
+  font-size: 25px;
+  text-align: left;
+  background: grey;
+  padding-left: 60px;
+  padding-right: 20px;
 }
 
 h4 {
-  font-size: 25px;
-  background: #7a991a;
-  padding-bottom: 30px;
-  padding-top: 20px;
+  font-size: 20px;
+  text-align: left;
+  background: grey;
+  padding-left: 60px;
+  padding-right: 20px;
 }
 
 div {
@@ -73,63 +117,32 @@ div {
   text-align: center;
   padding-bottom: 10px;
 }
+
 a {
-  background: grey;
   font-family: 'Roboto Slab', serif;
   color: black;
   text-decoration: none;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
   border: none;
-  text-decoration: underline;
-}
-a img
-{
-border: 0;
+  text-decoration: none;
 }
 
-nav a:hover {
-  color: black;
-background: #7a991a;
-text-decoration: none;
+
+a:hover {
+  background: #7a991a;
+  text-decoration: none;
 }
 
 nav a:visited {
-  color: purple;
+  color: black;
   text-decoration: none;
-}
-
-
-h1 {
-  font-size: 40px;
-}
-
-h3 {
-  font-family: 'Roboto Slab', serif;
-  font-size: 28px;
-  background: grey;
-}
-
-nav {
-  padding-top: 10px;
-  background: 	grey;
-  text-decoration: none;
-}
-
-h2 {
-  font-weight: bold;
-  font-size: 50px;
-}
-p {
-background: grey;
-  font-size: 30px;
-  margin: 7px auto;
-  padding-top: 10px;
 }
 
 img {
   border: 0;
+  text-align: left;
   margin: 2px;
   width: 25%;
   max-width: 200px;
@@ -137,17 +150,33 @@ img {
   text-decoration: none;
 }
 
-li {
-text-decoration: none;
+a img
+{
 border: 0;
-
 }
 
 div {
   background-color: grey;
 }
 
-@media (max-width: 200px) {
-  li {
+@media (max-width: 600px) {
+  #mobile-menu-btn {
+    display: block;
+  }
+  nav p {
+    display: none;
+  }
+  .mobile-menu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+@media only screen (min-width: 500px) {
+    .experience {
+    margin: 2%;
     width: 10%;
-    float: left}}
+    float: left;
+  }
