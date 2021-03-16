@@ -161,6 +161,7 @@ div {
 
 
 @media only screen (max-width: 600px) {
+
     .experience {
     margin: 2%;
     width: 10%;
@@ -170,6 +171,7 @@ div {
     }
 
     img {
+      align-self: left;
       align-items: left;
     }
     a {
