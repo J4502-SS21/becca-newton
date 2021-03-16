@@ -9,7 +9,6 @@ nav {
   padding: 5px 0px;
   padding-left: 10px;
   padding-right: 0px;
-  border-bottom: 0px #7a991a;
   width: 99%;
   margin: 0;
   border: 0;
@@ -185,7 +184,7 @@ h1 {
   }
 
     img {
-        align-self: left;
+        align-self: flex-start;
         align-items: flex-start;
       }
 
