@@ -159,23 +159,8 @@ div {
   background-color: grey;
 }
 
-@media (max-width: 600px) {
-  #mobile-menu-btn {
-    display: block;
-  }
 
-  nav p {
-    display: none;
-  }
-  .mobile-menu {
-    display: none;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-}
-
-@media only screen (min-width: 200px) {
+@media only screen (max-width: 200px) {
     .experience {
     margin: 2%;
     width: 10%;
