@@ -162,37 +162,4 @@ div {
 
 @media (max-width:600px) {
 
-  nav {
-    width: 50%;
-    font-size: 10px;
-    background: #7a991a;
-    text-align: left;
-    overflow: hidden;
-    padding: 0px 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin: 0;
-    border: 0;
-  }
-
-    .experience {
-    margin: 100%;
-    width: 50%;
-  }
-
-    img {
-      align-self: left;
-      align-items: left;
-    }
-
-    a {
-      color: black;
-      text-decoration: underline;
-      font-size: 20px;
-      font-weight: bold;
-      text-transform: uppercase;
-      border: none;
-      text-decoration: none;
-    }
-
   }
