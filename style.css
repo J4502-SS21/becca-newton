@@ -163,10 +163,13 @@ div {
 @media (max-width:600px) {
 
 head {
-
   align-items: left;
 }
 
+h1 {
+
+  align-items: left;
+}
   nav {
       width: 60%;
       font-size: 50px;
