@@ -163,6 +163,7 @@ div {
   #mobile-menu-btn {
     display: block;
   }
+
   nav p {
     display: none;
   }
@@ -174,9 +175,12 @@ div {
   }
 }
 
-@media only screen (min-width: 500px) {
+@media only screen (min-width: 200px) {
     .experience {
     margin: 2%;
     width: 10%;
-    float: left;
+    nav {
+      font-size: 10px;
+      align: left;
+    }
   }
