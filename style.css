@@ -176,13 +176,10 @@ div {
   }
 
     .experience {
-    margin: 50%;
-    width: 10%;
-    nav {
-      font-size: 40px;
-      align: left;
-    }
-
+    margin: 100%;
+    width: 20%;
+  }
+  
     img {
       align-self: left;
       align-items: left;
