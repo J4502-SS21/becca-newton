@@ -160,7 +160,11 @@ div {
 }
 
 
-@media only screen (max-width: 600px) {
+@media (max-width:600px) {
+
+  nav {
+  
+  }
 
     .experience {
     margin: 2%;
@@ -184,17 +188,4 @@ div {
       text-decoration: none;
     }
 
-    nav {
-      width: 10%;
-      font-size: 50px;
-      background: #7a991a;
-      text-align: left;
-      overflow: hidden;
-      padding: 0px 0px;
-      padding-left: 0px;
-      padding-right: 0px;
-
-      margin: 0;
-      border: 0;
-    }
   }
