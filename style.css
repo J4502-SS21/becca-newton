@@ -167,12 +167,12 @@ div {
 @media (max-width:600px) {
 
 head {
-  align-items: left;
+  align-items: flex-start;
 }
 
 h1 {
 
-  align-items: left;
+  align-items: flex-start;
 }
   nav {
       width: 80%;
@@ -186,7 +186,7 @@ h1 {
 
     img {
         align-self: left;
-        align-items: left;
+        align-items: flex-start;
       }
 
 
