@@ -162,21 +162,8 @@ div {
 
 @media (max-width:600px) {
 
-  nav {
-    width: 10%;
-    font-size: 50px;
-    background: #7a991a;
-    text-align: left;
-    overflow: hidden;
-    padding: 0px 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin: 0;
-    border: 0;
-  }
-
     .experience {
-    margin: 2%;
+    margin: 50%;
     width: 10%;
     nav {
       font-size: 40px;
