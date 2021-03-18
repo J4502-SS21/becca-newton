@@ -162,6 +162,9 @@ div {
   background-color: grey;
 }
 
+#menu_trigger {
+  display: none;
+}
 
 @media (max-width:600px) {
 
@@ -173,11 +176,22 @@ h1 {
 
   align-items: flex-start;
 }
-  nav {
+nav {
       width: 80%;
-      font-size: 50px; 
+      font-size: 50px;
       text-align: left;
     }
+
+#menu_trigger {
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#menu_nav {
+  display: none;
+}
 
   a {
     text-decoration: underline;
