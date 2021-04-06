@@ -1,20 +1,25 @@
 "use strict";
 
-var menuNav = document.getElementById("menu_nav");
+console.log("This page loaded");
 
-console.log("Hello, World!");
+var menuNav = document.getElementById('menu_nav');
 
-console.log(menuNav);
-//alert("Hello, World!");
+var menuTrigger = document.getElementById('menu_trigger');
 
-
-var menuTrigger = document.getElementById("menu_trigger");
-
-menuTrigger.onclick = function() {
+function menuToggle() {
   if (menuNav.style.display === "flex") {
     menuNav.style.display = "none";
-  } else {
-    menuNav.style.display = "flex";
-  }
-  console.log("The menu has been toggled!")
+    } else {
+      menuNav.style.display = "flex";
+    }
+    console.log("The menu has been toggled")
+}
+
+menuTrigger.onclick = menuToggle;
+
+window.onresize = function() {
+  if (window.innerWidth >= 600) {
+    menuNav.removeAttribute("style");
+    menuTrigger.removeAttribute("style")
+  } ;
 }
