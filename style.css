@@ -2,19 +2,15 @@
 width: 100%;
 text-align: center;
 overflow: hidden;
-overflow: hidden;
 padding: 1px 0px;
 width: 100%;
 font-family: 'Open Sans', sans-serif;
 font-size: 50px;
 background: #7a991a;
 text-align: center;
-overflow: hidden;
-overflow: hidden;
 padding: 5px 0px;
 padding-left: 10px;
 padding-right: 0px;
-width: 99%;
 margin: 0;
 border: 0;
 }
@@ -31,13 +27,28 @@ border: 0;
 
 nav a:hover {
 color: black;
-background: grey;
+background: #7a991a;
 text-decoration: none;
 }
 
 nav a:visited {
   color: black;
   text-decoration: none;
+}
+
+a {
+  font-family: 'Roboto Slab', serif;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  text-decoration: none;
+}
+
+head {
+  align-items: flex-start;
 }
 
 body {
@@ -105,6 +116,7 @@ h1 {
   width: 50%;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 h2 {
@@ -140,28 +152,6 @@ div {
   padding-bottom: 10px;
 }
 
-a {
-  font-family: 'Roboto Slab', serif;
-  color: black;
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: bold;
-  text-transform: uppercase;
-  border: none;
-  text-decoration: none;
-}
-
-
-a:hover {
-  background: #7a991a;
-  text-decoration: none;
-}
-
-nav a:visited {
-  color: black;
-  text-decoration: none;
-}
-
 img {
   border: 0;
   text-align: left;
@@ -170,11 +160,10 @@ img {
   max-width: 300px;
   min-width: 200px;
   text-decoration: none;
+  align-self: flex-start;
+  align-items: flex-start;
 }
 
-a img
-{
-border: 0;
 }
 
 div {
@@ -185,29 +174,13 @@ div {
   display: none;
 }
 
-@media (max-width:600px) {
+@media (max-width: 700px) {
+  nav {
+        width: 80%;
+        font-size: 50px;
+        text-align: left;
+      }
 
-head {
-  align-items: flex-start;
-}
-
-h1 {
-
-  align-items: flex-start;
-}
-
-nav {
-      width: 80%;
-      font-size: 50px;
-      text-align: left;
-    }
-
-
-    #menu_trigger {
-      display: none;
-    }
-
-    @media (max-width: 700px) {
       ul {
         flex-direction: column;
       }
@@ -216,6 +189,7 @@ nav {
         width: 100%;
         text-align: left;
       }
+
       #menu_nav {
         display:none;
       }
@@ -228,26 +202,3 @@ nav {
       }
 
     }
-
-#menu_trigger {
-  display: block;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
-
-#menu_nav {
-  display: none;
-}
-
-  a {
-    text-decoration: underline;
-  }
-
-    img {
-        align-self: flex-start;
-        align-items: flex-start;
-      }
-
-
-  }
