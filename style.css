@@ -6,6 +6,7 @@ padding: 1px 0px;
 width: 100%;
 font-family: 'Open Sans', sans-serif;
 font-size: 50px;
+color: #006466;
 background: #006466;
 padding-left: 10px;
 padding-right: 10px;
@@ -22,6 +23,7 @@ border: 10;
   padding: 1px 0px;
   font-family: 'Open Sans', sans-serif;
   font-size: 50px;
+  color: #006466;
   background: #006466;
   margin: 10;
   border: 10;
@@ -59,12 +61,8 @@ a:visited {
 a {
   font-family: 'Roboto Slab', serif;
   color: black;
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 20px;
-  font-weight: bold;
-  text-transform: uppercase;
-  border: none;
-  text-decoration: none;
 }
 
 head {
@@ -72,7 +70,7 @@ head {
 }
 
 body {
-  background: grey;
+  background: #bebebe;
   text-align: center;
   color: black;
   margin: 0;
@@ -108,7 +106,7 @@ ul {
 }
 
 li {
-  background: grey;
+  background: #bebebe ;
   width: 33%;
   float: left;
   padding-bottom: 5px;
@@ -118,7 +116,7 @@ li {
 }
 
 p {
-background: grey;
+background: #bebebe ;
 text-align: left;
   font-size: 25px;
   margin: 7px auto;
@@ -128,7 +126,7 @@ text-align: left;
 h1 {
   font-size: 40px;
   text-align: left;
-  background: grey;
+  background: #bebebe ;
   padding-top: 40px;
   padding-left: 60px;
   padding-right: 20px;
@@ -152,7 +150,7 @@ h2 {
 h3 {
   font-size: 25px;
   text-align: left;
-  background: grey;
+  background: #bebebe ;
   padding-left: 60px;
   padding-right: 20px;
 }
@@ -160,14 +158,14 @@ h3 {
 h4 {
   font-size: 20px;
   text-align: left;
-  background: grey;
+  background: #bebebe ;
   padding-left: 60px;
   padding-right: 20px;
 }
 
 div {
   font-size: 18px;
-  background: #d3d3d3;
+  background: #bebebe;
   text-align: center;
   padding-bottom: 10px;
 }
@@ -185,7 +183,7 @@ img {
 }
 
 div {
-  background-color: grey;
+  background-color: #bebebe ;
 }
 
 #menu_trigger {
