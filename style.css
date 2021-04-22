@@ -173,9 +173,9 @@ div {
 img {
   border: 0;
   text-align: left;
-  margin: 2px;
+  margin: 0;
   width: 100%;
-  max-width: 600px;
+  max-width: 400px;
   min-width: 300px;
   text-decoration: none;
   align-self: flex-start;
