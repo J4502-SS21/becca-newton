@@ -3,7 +3,7 @@ width: 100%;
 text-align: center;
 overflow: hidden;
 padding: 1px 0px;
-width: 100%;
+width: 98%;
 font-family: 'Open Sans', sans-serif;
 font-size: 50px;
 color: #006466;
@@ -83,13 +83,13 @@ body {
 }
 
 .experience {
+  align-self: center;
   border: 2px solid black;
   padding: 1rem;
   margin: 1rem 0px;
-  padding: 1rem;
   box-sizing: border-box;
   display: flex;
-  width: 95%;
+  width: 98%;
   flex-direction: column;
   flex-wrap: wrap;
 }
