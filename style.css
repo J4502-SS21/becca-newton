@@ -6,8 +6,8 @@ padding: 1px 0px;
 width: 98%;
 font-family: 'Open Sans', sans-serif;
 font-size: 50px;
-color: #006466;
-background: #006466;
+color: #008080;
+background: #008080;
 padding-left: 10px;
 padding-right: 10px;
 margin: 10px;
@@ -23,8 +23,8 @@ border: 10px;
   padding: 1px 0px;
   font-family: 'Open Sans', sans-serif;
   font-size: 50px;
-  color: #006466;
-  background: #006466;
+  color: #008080;
+  background: #008080;
   margin: 10px;
   border: 10px;
   box-sizing: border-box;
@@ -34,13 +34,13 @@ border: 10px;
 .menu_nav {
   font-size: 16px;
   padding: 1px 0px;
-  background-color: #0B525B;
-  color: #0B525B;
+  background-color: #008080;
+  color: #008080;
 }
 
 nav a:hover {
 color: black;
-background: #0B525B;
+background: #008080;
 text-decoration: none;
 }
 
@@ -51,7 +51,7 @@ nav a:visited {
 
 a:hover {
   color: black;
-  background: #0B525B;
+  background: #008080;
   text-decoration: none;
 }
 
@@ -144,7 +144,7 @@ h1 {
 h2 {
   font-family: 'Roboto Slab', serif;
   font-size: 30px;
-  background: #0B525B;
+  background: #008080;
   text-align: left;
   padding-left: 60px;
   padding-right: 20px;
